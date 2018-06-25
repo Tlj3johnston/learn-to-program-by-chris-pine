@@ -1,0 +1,7 @@
+An "octothorpe" is also called a "pound", "hash", "mesh", or any number of names. Pick the one that makes you chill out.
+
+023d7368@slack.launchschool.com
+
+Don't put any space between the = sign and the words begin or end. You can do that with math (2 + 5 is the same as 2+5), but in this case, Ruby will get confused. =begin and =end also need to be on lines all by themselves, just as shown above.
+
+"x".upcase and "x".downcase
