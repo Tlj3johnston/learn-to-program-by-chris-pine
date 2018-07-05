@@ -1,0 +1,8 @@
+puts "What's your first name?
+first_name = $stdin.gets.chomp
+puts "Cool.  And your middle name?"
+middle_name = $stdin.gets.chomp
+puts "Ok.  And, finally, may I have your last name as well?"
+last_name = $stdin.gets.chomp
+total_characters = first_name.length + middle_name.length + last_name.length
+puts "Did you know there are #{total_characters.length_s} characters in  your last name?"
