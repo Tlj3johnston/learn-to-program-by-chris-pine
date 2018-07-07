@@ -7,18 +7,19 @@ answer = $stdin.gets.chomp
     answer = $stdin.gets.chomp
   end
 
-puts "No! Not since " + rand(1939).to_s + "!"
+puts "No! Not since " + rand(1930..1950).to_s + "!"
 puts
 answer_num = 0
   while answer_num < 3
-  puts "Do you really have to go?"
+  puts "Tell me something new..."
   print "> "
   answer = $stdin.gets.chomp
     if answer == "BYE"
       puts "Well, maybe you can go....  I don't know."
       answer_num = answer_num + 1
     else
-      puts "That's not what I wanted to hear..."
+      puts "That's just what I was hoping...."
+      answer_num = 0
     end
   end
 
